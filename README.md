@@ -3,9 +3,13 @@
 This is a Magento 2 module provides a couple of examples to start a journey with Magewire.
 
 ### 1. Installation:
-* `composer config repositories.SnowdogApps/magewire-examples git git@github.com:SnowdogApps/magewire-examples.git`
-* `composer require snowdog/magewire-example`
+* `composer config repositories.snowdog/magewire-examples git git@github.com:SnowdogApps/magewire-examples.git`
+* `composer require snowdog/magewire-examples`
 * `bin/magento setup:upgrade`
+
+### 2. Requirements:
+* Magento > 2.4.3
+* PHP > 8.1
 
 ### 2. Run the examples:
 After installation got to `<MAGENTO_HOST>/magewire` to run the two examples provided:
@@ -24,4 +28,5 @@ This example makes filers a collection of products by two filters without refres
 
 ![filter-anim.gif](./assets/filter-anim.gif)
 
-
+### Disclaimer
+This module is provided as is and, it provides just examples, support is not provided.

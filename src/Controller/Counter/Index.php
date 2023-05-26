@@ -1,6 +1,6 @@
 <?php
 
-namespace Swnodog\MagewireExamples\Controller\Counter;
+namespace Snowdog\MagewireExamples\Controller\Counter;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\ActionInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Swnodog\MagewireExamples\Controller\ProductFilter;
+namespace Snowdog\MagewireExamples\Controller\ProductFilter;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\ActionInterface;

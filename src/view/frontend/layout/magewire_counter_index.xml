@@ -3,10 +3,10 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block name="counter" template="Swnodog_MagewireExamples::magewire/counter.phtml">
+            <block name="counter" template="Snowdog_MagewireExamples::magewire/counter.phtml">
                 <arguments>
                     <argument name="magewire" xsi:type="object">
-                        \Swnodog\MagewireExamples\Magewire\Counter
+                        \Snowdog\MagewireExamples\Magewire\Counter
                     </argument>
                 </arguments>
             </block>

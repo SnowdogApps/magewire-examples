@@ -4,6 +4,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'Swnodog_MagewireExamples',
+    'Snowdog_MagewireExamples',
     __DIR__
 );

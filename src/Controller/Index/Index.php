@@ -1,6 +1,6 @@
 <?php
 
-namespace Swnodog\MagewireExamples\Controller\Index;
+namespace Snowdog\MagewireExamples\Controller\Index;
 
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\ActionInterface;

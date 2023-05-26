@@ -1,6 +1,6 @@
 <?php
 
-namespace Swnodog\MagewireExamples\Magewire;
+namespace Snowdog\MagewireExamples\Magewire;
 
 use Magewirephp\Magewire\Component;
 use Magento\Catalog\Model\ResourceModel\Product\CollectionFactory;

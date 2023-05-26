@@ -3,17 +3,17 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block name="product.filters" template="Swnodog_MagewireExamples::magewire/products/filters.phtml">
+            <block name="product.filters" template="Snowdog_MagewireExamples::magewire/products/filters.phtml">
                 <arguments>
                     <argument name="magewire" xsi:type="object">
-                        \Swnodog\MagewireExamples\Magewire\Filters
+                        \Snowdog\MagewireExamples\Magewire\Filters
                     </argument>
                 </arguments>
             </block>
-            <block name="product.listing" template="Swnodog_MagewireExamples::magewire/products/listing.phtml">
+            <block name="product.listing" template="Snowdog_MagewireExamples::magewire/products/listing.phtml">
                 <arguments>
                     <argument name="magewire" xsi:type="object">
-                        \Swnodog\MagewireExamples\Magewire\ProductListing
+                        \Snowdog\MagewireExamples\Magewire\ProductListing
                     </argument>
                 </arguments>
             </block>
