@@ -12,7 +12,7 @@ This is a Magento 2 module provides a couple of examples to start a journey with
 * PHP > 8.1
 
 ### 2. Run the examples:
-After installation got to `<MAGENTO_HOST>/magewire` to run the two examples provided:
+After installation go to `<MAGENTO_HOST>/magewire` to run the two examples provided:
 
 **Counter** `<MAGENTO_HOST>/magewire/counter`
 
