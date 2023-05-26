@@ -1,0 +1,19 @@
+<?php $_productCollection = $magewire->products; ?>
+<div class="products wrapper grid products-grid" />
+    <ol class="products list items product-items">
+        <?php foreach ($_productCollection as $_product): ?>
+            <li class="item product product-item">
+                <div class="product-item-info"
+                     id="product-item-info_<?= /* @noEscape */ $_product['entity_id'] ?>"
+                     data-container="product-grid">
+                    <div class="product details product-item-details">
+                        <?php $_productNameStripped = $block->stripTags($_product['name'], null, true); ?>
+                        <strong>
+                                <?=/* @noEscape */ $_product['name'] ?>
+                        </strong>
+                    </div>
+                 </div>
+            </li>
+        <?php endforeach; ?>
+    </ol>
+</div>

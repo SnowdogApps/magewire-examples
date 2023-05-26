@@ -1,0 +1,19 @@
+{
+  "name": "snowdog/magewire-examples",
+  "description": "Magewire examples module",
+  "type": "magento2-module",
+  "require": {
+      "magewirephp/magewire": "^1.8",
+      "magewirephp/magewire-requirejs": "^1.1"
+  },
+  "authors": [
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Snowdog\\MagewireExamples\\": "src/"
+    }
+  }
+}

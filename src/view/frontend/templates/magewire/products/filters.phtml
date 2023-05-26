@@ -1,0 +1,15 @@
+<div class="block">
+    <label>
+        <select wire:model="color" wire:select.debounce.3000ms.blur>
+            <?php foreach($magewire->colors as $color) : ?>
+                <option value="<?= $color['value'] ?>"><?= $color['label'] ?></option>
+            <?php endforeach ?>
+        </select>
+        <p></p>
+        <select wire:model="size" wire:select.debounce.3000ms.blur>
+            <?php foreach($magewire->sizes as $size) : ?>
+                <option value="<?= $size['value'] ?>"><?= $size['label'] ?></option>
+            <?php endforeach ?>
+        </select>
+    </label>
+</div>
