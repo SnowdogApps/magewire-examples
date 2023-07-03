@@ -1,6 +1,6 @@
 # Magewire Example Module
 
-This is a Magento 2 module provides a couple of examples to start a journey with Magewire.
+This is a Magento 2 module provides a couple of examples to start a journey with Magewire. Read the [full article](https://snow.dog/blog/magewire-game-changer-for-magento-from-hyva).
 
 ### 1. Installation:
 * `composer config repositories.snowdog/magewire-examples git git@github.com:SnowdogApps/magewire-examples.git`
